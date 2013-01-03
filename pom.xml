@@ -121,7 +121,7 @@ SOFTWARE.
 						<goals><goal>add-source</goal></goals>
 						<configuration>
 							<sources>
-								<source>examples/main/java</source>
+								<source>src/examples/java</source>
 							</sources>
 						</configuration>
 					</execution>

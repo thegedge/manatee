@@ -72,7 +72,7 @@ public class TestMessageData {
 	public void testAddMethodWithWrongSignature() {
 		try {
 			final Method messageAMethod = TestReceiverA.class.getDeclaredMethod("messageA");
-			assertFalse(data.addReceiverMethod(Sender.MESSAGE_AB, messageAMethod));
+			assertFalse(data.addReceiverMethod(TestSender.MESSAGE_AB, messageAMethod));
 		} catch(Exception exc) {
 			fail(exc.getMessage());
 		}
